@@ -1,0 +1,19 @@
+STEP 1:
+
+Compile the attached code using:
+
+g++ -std=c++11 -o can2root canSort_new.cxx `root-config --cflags --glibs`
+
+STEP 2:
+
+Run the code as:
+
+./can2root IITR_Eu152_10Jul16_2.001 test.root
+
+...it will ask for calibration file name; here enter
+
+"test_10Jul_2.001.dat"
+
+...later it will ask if we want to sort another file; here enter
+
+"n"
